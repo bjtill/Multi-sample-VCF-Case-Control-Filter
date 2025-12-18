@@ -1,5 +1,5 @@
 //BT Oct 24, 2025
-//g++ -std=c++11 -o vcf_filter_single VCFFilter_SingleInput.cpp
+//g++ -o casecontrol CaseControlVCFFilter_SingleInput_V2.cpp -std=c++11
 //./vcf_filter_single --vcf input.vcf.gz --samples samples.txt --output filtered.vcf --min-depth 10 --max-depth 200 --percent-unique 80 --multi-allelic
 
 //Single VCF filtering program using case-control filtering principles
